@@ -4,7 +4,14 @@ import GetStarted from './GetStarted';
 import Homepage from './Homepage';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer';
+import Business from './Business';
+import Individual from './Individual';
+import Buy from './Buy';
+import Instant_Buy_Sell from './Instant_Buy_Sell';
+import Sell from './Sell';
+import Login from './Login';
+
+
 
 
 function App() {
@@ -20,15 +27,31 @@ function App() {
             <Route path='/Getstarted'>
                 <GetStarted/>
             </Route>
-{/* 
-            <Route path='/Service'>
-                <Service/>
+
+            <Route path='/Individual'>
+                <Individual/>
             </Route>
 
-            <Route path='*'>
-                <Error/>
-            </Route> */}
+            <Route path='/Business'>
+                <Business/>
+            </Route>
 
+
+
+            <Route path='/Instant_Buy_Sell'>
+                <Instant_Buy_Sell/>
+            </Route>
+
+            <Route path='/Buy'>
+                <Buy/>
+            </Route>
+            <Route path='/Sell'>
+                <Sell/>
+            </Route>
+
+            <Route path='/Login'>
+                <Login/>
+            </Route>
          
        </Switch>
 

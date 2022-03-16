@@ -21,9 +21,9 @@ const Navigator = () => {
       <Nav className="w-100  justify-content-end ">
 
        <div className='li '>
-        <Link className='hyper'>Instant Buy/Sell</Link>
+        <Link to='./Instant_Buy_Sell' className='hyper'>Instant Buy/Sell</Link>
         <Link className='hyper'>Learn</Link>
-        <Link className='hyper log'>Log In</Link>
+        <Link to='./Login' className='hyper log'>Log In</Link>
         <Link className='hyper get' to='/GetStarted'>Get Started</Link>
        </div>
 

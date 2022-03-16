@@ -1,15 +1,17 @@
 .getstarted{
   width: 40%;
-  height: 580px;
+  /* height: 580px; */
+  height: auto;
   border-style: solid;
   border-color: whitesmoke;
    border-width: 0.1px;
    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
    margin: auto;
   text-align: center;
-  margin-top: 1%;
+  margin-top: 2%;
   background-color: #FBF8FD;
   padding: 2%;
+  margin-bottom: 2%;
 }
 
 .but{
@@ -26,6 +28,11 @@
     border-radius: 10px;
     color: black;
 
+}
+.butactive{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
 }
 
 .getlinks{
@@ -50,6 +57,14 @@
     margin: auto;
     text-align: center;
 }
+.curr{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 .sign{
     background-color: #7C20BF;
@@ -59,3 +74,56 @@
     border-radius: 4px;
     border-style: none;
 }
+
+.datas{
+    border-radius: 5px;
+    height: 40px;
+    border-style: solid;
+    border-width: 0.5px; 
+    border-color: #E4E4E4;
+}
+.getanchor{
+    color: #7C20BF;
+}
+
+.coin{
+    text-align: left;
+}
+.ngn{
+    width: 20%;
+    border-style: none;
+}
+.ngnn{
+    width: 80%;
+    border-style: none;
+}
+.amo{
+    border-style: solid;
+    border-width: 0.5px; 
+    border-color: #E4E4E4;
+    border-radius: 5px;
+}
+.continue{
+    width: 80%;
+}
+.logg{
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+.forgot{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.rem{
+    margin-bottom: 15%;
+}
+.new{
+    margin-top: 10%;
+}
+.anchor{
+    color: #7C20BF;
+}
+
