@@ -12,8 +12,8 @@ const Login = () => {
 
 
         <div className='inputs logg'>
-            <input className='datas' type="text" name="username" id="" placeholder='    Username' />
-            <input className='datas' type="password" name="password" id="" placeholder='    Password' />
+            <input className='datas' type="text" name="username" id="user" placeholder='    Username' />
+            <input className='datas' type="password" name="password" id="pass" placeholder='    Password' />
         </div>
 
 
@@ -33,7 +33,7 @@ const Login = () => {
         </div>
 
 
-        <button className='continue sign'>Log In</button>
+       <Link to='./Verify'> <button className='continue sign'>Log In</button></Link>
 
 
 

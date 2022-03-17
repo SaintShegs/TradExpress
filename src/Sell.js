@@ -16,7 +16,7 @@ const Sell = () => {
 
         <div className='getlinks'>
         <Link to='./Buy' className='but'>Buy</Link>
-        <Link to='./Sell' className='but'>Sell</Link>
+        <Link to='./Sell' className='but butactive'>Sell</Link>
         </div>
 
         <section className='curr'>

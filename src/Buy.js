@@ -15,7 +15,7 @@ const Buy = () => {
         </h3>
 
         <div className='getlinks'>
-        <Link to='./Buy' className='but'>Buy</Link>
+        <Link to='./Buy' className='but butactive'>Buy</Link>
         <Link to='./Sell' className='but'>Sell</Link>
         </div>
 
@@ -42,6 +42,8 @@ const Buy = () => {
             <h5 className='coin'>Amount</h5>
 
             <span className='amo'>
+
+
 
             <input className='ngn datas' type="text" name="" id="" value='NGN' disabled />
 

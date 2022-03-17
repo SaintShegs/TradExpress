@@ -2,8 +2,6 @@ import React from 'react'
 import applelogo from './images/Group 68.svg'
 import googlelogo from './images/Group 69.svg'
 import { Link } from 'react-router-dom'
-import google from './images/apple store logo.png'
-
 const Create = () => {
   return (
     <div className='account'>

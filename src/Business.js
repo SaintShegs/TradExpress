@@ -18,7 +18,7 @@ const Business = () => {
 
         <div className='getlinks'>
         <Link to='./Individual' className='but'>Individual</Link>
-        <Link to='./Business' className='but'>Business</Link>
+        <Link to='./Business' className='but butactive'>Business</Link>
         </div>
        
 
@@ -38,7 +38,8 @@ const Business = () => {
 
        <p>By clicking the Sign Up button below, you agree to TradExpress <a className='getanchor' href=""> terms and service </a></p>
 
-       <button className='sign'>Sign Up</button>
+       {/* <button className='sign'>Sign Up</button> */}
+       <Link to='./Verify' className='sign'>Sign Up</Link>
 
        <p>Already have an account? <Link  to='./Login' className='getanchor'>Click here</Link></p>
 

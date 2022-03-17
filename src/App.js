@@ -10,6 +10,8 @@ import Buy from './Buy';
 import Instant_Buy_Sell from './Instant_Buy_Sell';
 import Sell from './Sell';
 import Login from './Login';
+import Verify from './Verify';
+import Learn from './Learn';
 
 
 
@@ -24,7 +26,7 @@ function App() {
                 <Homepage/>
             </Route>
 
-            <Route path='/Getstarted'>
+            <Route path='/GetStarted'>
                 <GetStarted/>
             </Route>
 
@@ -51,6 +53,14 @@ function App() {
 
             <Route path='/Login'>
                 <Login/>
+            </Route>
+
+            <Route path='/Verify'>
+                <Verify/>
+            </Route>
+
+            <Route path='/Learn'>
+                <Learn/>
             </Route>
          
        </Switch>

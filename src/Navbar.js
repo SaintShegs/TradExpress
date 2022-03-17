@@ -22,7 +22,7 @@ const Navigator = () => {
 
        <div className='li '>
         <Link to='./Instant_Buy_Sell' className='hyper'>Instant Buy/Sell</Link>
-        <Link className='hyper'>Learn</Link>
+        <Link to='./Learn' className='hyper'>Learn</Link>
         <Link to='./Login' className='hyper log'>Log In</Link>
         <Link className='hyper get' to='/GetStarted'>Get Started</Link>
        </div>

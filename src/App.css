@@ -158,12 +158,13 @@
    .sections{
      /* Layout Properties */
    width: 90%;
-   display:block;
+   display:flex;
+   flex-direction: column;
    justify-content: space-between;
    margin-left: 5%;
    padding-top: 5%;
    padding-bottom: 5%;
-   row-gap: 10px;
+   gap: 10px;
    
    }
    .options{
@@ -515,12 +516,13 @@
    .sections{
      /* Layout Properties */
    width: 90%;
-   display:block;
+   display:flex;
+   flex-direction: column;
    justify-content: space-between;
    margin-left: 5%;
    padding-top: 5%;
    padding-bottom: 5%;
-   row-gap: 10px;
+   gap: 10px;
    
    }
    .options{
@@ -538,7 +540,7 @@
    }
    
    .img{
-     width: 50%;
+     width: 30%;
      padding-bottom: 5%;
    
    }
@@ -626,7 +628,7 @@
    /* CustomerReview */
    .commentSection{
    display: block;
-   width: 95%;
+   width: 70%;
    margin: auto;
    text-align: center;
    justify-content: space-between;
@@ -707,8 +709,6 @@
  
 }
  
-
-
 
 
 @media (min-width:900px) { 
@@ -869,6 +869,7 @@ justify-content: flex-end;
    /* Layout Properties */
  width: 90%;
  display:flex;
+ flex-direction: row;
  justify-content: space-between;
  margin-left: 5%;
  padding-top: 5%;
